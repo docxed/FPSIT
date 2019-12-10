@@ -4,7 +4,6 @@ import cv2, numpy as np, dlib, pickle
 
 app = Flask(__name__)
 # connect database
-dbcon = pymysql.connect('localhost', 'root', '1234', 'student')
 
 @app.route('/')
 def hello():
