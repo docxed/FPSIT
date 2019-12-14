@@ -638,11 +638,11 @@ $email = $_SESSION['email'];
 
       $ch = 'รอการเช็ค';
       $ched = 'เช็คแล้ว';
-      $c = "SELECT COUNT(c_id) AS countcheck FROM checked WHERE c_session='$uid' AND c_checked='$ch'";
+      $c = "SELECT COUNT(c_id) AS countcheck FROM checked WHERE c_session='$uid' AND c_checked='$ched'";
       $resc = mysqli_query($dbcon, $c);
       $rowc = mysqli_fetch_array($resc, MYSQLI_ASSOC);
 
-      $c2 = "SELECT COUNT(c_id) AS countchecked FROM checked WHERE c_session='$uid' AND c_checked='$ched'";
+      $c2 = "SELECT COUNT(c_id) AS countchecked FROM checked WHERE c_session='$uid' AND c_checked='$ch'";
       $resc2 = mysqli_query($dbcon, $c2);
       $rowc2 = mysqli_fetch_array($resc2, MYSQLI_ASSOC);
 
