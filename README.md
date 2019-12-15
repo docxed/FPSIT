@@ -1,4 +1,4 @@
-﻿# Project: Facial Authentication
+﻿# Project: CheckIT
 # Group Name: None
 # Members:
 1. สการ บรรทัดจันทร์ (แม็ค) 62070190
